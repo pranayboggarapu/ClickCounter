@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     }
 
     @objc func incrementCounter(){
-        countClicks += 1
+        self.countClicks += 1
         self.counterLabel.text = String(countClicks)
     }
 }
